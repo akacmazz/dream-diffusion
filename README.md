@@ -26,12 +26,14 @@ Our implementation delivers **state-of-the-art results** on CelebA face generati
 ## 🚀 Quick Start
 
 ### Google Colab (Recommended)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/dream-diffusion/blob/main/notebooks/dream_diffusion_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/dream-diffusion/blob/main/notebooks/dream_diffusion_complete.ipynb)
 
+**Complete Implementation (26 cells):**
 1. Click the Colab badge above
-2. Run all cells in order
-3. The notebook will automatically download CelebA dataset
-4. Training includes crash protection and auto-resume
+2. Run all cells in order (Cells 1-26)
+3. Comprehensive training + evaluation + 5000-sample FID analysis
+4. Includes crash protection, auto-resume, and individual sample saving
+5. Final FID: 25.75 with full evaluation suite
 
 ### Kaggle (Memory Optimized)
 [![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/yourusername/dream-diffusion-kaggle)
@@ -138,6 +140,7 @@ class DREAMTrainer:
 ```
 dream-diffusion/
 ├── notebooks/
+│   ├── dream_diffusion_complete.ipynb  # Complete implementation (26 cells, 100 epochs)
 │   ├── dream_diffusion_colab.ipynb     # Main implementation (100 epochs)
 │   └── dream_diffusion_kaggle.ipynb    # Memory-optimized version
 ├── src/
@@ -262,20 +265,68 @@ class CrashProtectedTrainer:
 
 ## 📚 Advanced Usage
 
+### Complete Notebook Features
+
+The `dream_diffusion_complete.ipynb` includes:
+
+**Cells 1-6**: Setup and Installation
+- GPU check and memory management
+- Library installation (torch-fidelity, clean-fid, lpips)
+- Google Drive integration with crash recovery
+- Dataset download and verification
+- Session keep-alive protection
+
+**Cells 7-12**: Model Implementation  
+- CelebA dataset class with crash protection
+- Optimized diffusion utilities (cosine schedule)
+- UNet components (ResBlock, Attention, SinusoidalEmbeddings)
+- Memory-optimized UNet (54.85M parameters)
+- DREAM framework with conservative parameters
+- Evaluation functions (FID, IS, LPIPS)
+
+**Cells 13-14**: Training
+- Comprehensive configuration system
+- Crash-protected training loop with auto-resume
+- Mixed precision training with gradient scaling
+- EMA model management
+- Progress visualization and monitoring
+
+**Cells 15-18**: Basic Evaluation
+- Sample generation for evaluation
+- FID calculation with 500 samples
+- Basic metrics computation
+- Results packaging and download
+
+**Cells 19-20**: Advanced Visualizations
+- Publication-quality figures generation
+- Training progression analysis
+- Architecture diagrams
+- Advanced parameter sensitivity analysis
+
+**Cells 21-26**: Enhanced Evaluation (5000 samples)
+- Large-scale FID evaluation (5000 samples)
+- Comprehensive metrics (IS, LPIPS, Mode Coverage)
+- 500 vs 5000 sample comparison
+- Individual sample saving and organization
+- Complete statistical analysis
+
 ### Training with Custom Configuration
 
 ```python
-from src.models.dream import DREAMTrainer
-from src.models.unet import UNet
-from src.utils.crash_protection import CrashProtectedTrainer
-
-# Initialize with proven configuration
-config = load_config('configs/conservative_config.yaml')
-model = UNet(config)
-trainer = CrashProtectedTrainer(model, config)
-
-# Start training with full protection
-trainer.train_with_protection()
+# From the complete notebook
+class CompleteConfig:
+    def __init__(self):
+        self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+        self.batch_size = 128  # GPU-adaptive
+        self.learning_rate = 2e-4  # Conservative
+        self.num_epochs = 100
+        self.dream_start_epoch = 10  # Delayed activation
+        self.lambda_max = 0.5  # Conservative adaptation
+        self.beta_schedule = 'cosine'  # Most stable
+        
+# Initialize with crash protection
+model = UNet(config).to(config.device)
+trainer = CrashProtectedTrainer(model, diffusion, config)
 ```
 
 ### High-Quality Sample Generation
