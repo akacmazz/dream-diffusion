@@ -110,10 +110,8 @@ python train.py --config configs/base_config.yaml
 ## 📈 Training Progression & Dynamics
 
 ### Quality Evolution Over Time
-<div align="center">
-  <img src="images/training/progression_5_stages.png" alt="Training Progression" width="800"/>
-  <p><i>Quality evolution from noise (Epoch 3) to publication-quality (Epoch 100)</i></p>
-</div>
+![image](https://github.com/user-attachments/assets/dc283ac6-9b77-494f-b9fd-49e0075f8131)
+
 
 **Key Training Milestones:**
 - **Epoch 3**: Initial structure formation from noise
