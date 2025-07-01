@@ -26,7 +26,7 @@ Our implementation delivers **state-of-the-art results** on CelebA face generati
 ## 🚀 Quick Start
 
 ### Google Colab (Recommended)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/dream-diffusion/blob/main/notebooks/dream_diffusion_complete.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akacmazz/dream-diffusion/blob/main/notebooks/dream_diffusion_complete.ipynb)
 
 **Complete Implementation (26 cells):**
 1. Click the Colab badge above
@@ -36,7 +36,7 @@ Our implementation delivers **state-of-the-art results** on CelebA face generati
 5. Final FID: 25.75 with full evaluation suite
 
 ### Kaggle (Memory Optimized)
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/yourusername/dream-diffusion-kaggle)
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/akacmazz/dream-diffusion-kaggle)
 
 1. Fork the Kaggle notebook
 2. Add CelebA dataset to your notebook
@@ -46,7 +46,7 @@ Our implementation delivers **state-of-the-art results** on CelebA face generati
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/dream-diffusion.git
+git clone https://github.com/akacmazz/dream-diffusion.git
 cd dream-diffusion
 
 # Install dependencies
@@ -446,7 +446,7 @@ If you use this implementation in your research, please cite:
   institution={Istanbul Technical University},
   course={BLG561 Machine Learning},
   year={2024},
-  howpublished={\url{https://github.com/yourusername/dream-diffusion}},
+  howpublished={\url{https://github.com/akacmazz/dream-diffusion}},
   note={FID Score: 25.75, Implementation with crash protection and hardware optimization}
 }
 ```
@@ -461,8 +461,8 @@ If you use this implementation in your research, please cite:
 
 ## 📞 Support & Contact
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/dream-diffusion/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/dream-diffusion/discussions)
+- **Issues**: [GitHub Issues](https://github.com/akacmazz/dream-diffusion/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/akacmazz/dream-diffusion/discussions)
 - **Institution**: Istanbul Technical University
 - **Course**: BLG561 Machine Learning
 
