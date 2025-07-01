@@ -55,13 +55,6 @@ Our implementation delivers **state-of-the-art results** on CelebA face generati
 4. Includes crash protection, auto-resume, and individual sample saving
 5. Final FID: 25.75 with full evaluation suite
 
-### Kaggle (Memory Optimized)
-[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://www.kaggle.com/code/akacmazz/dream-diffusion-kaggle)
-
-1. Fork the Kaggle notebook
-2. Add CelebA dataset to your notebook
-3. Run the memory-optimized version for Kaggle T4 GPUs
-
 ### Local Installation
 
 ```bash
@@ -87,7 +80,6 @@ python train.py --config configs/base_config.yaml
 | **LPIPS Diversity** | **0.259** | 0.251 | 0.198 | ✅ High sample diversity |
 | **Mode Coverage** | **100%** (20/20) | 95% (19/20) | 85% | ✅ Perfect mode coverage |
 | **Training Loss** | **0.029** | - | 0.045 | ✅ Excellent convergence |
-| **GPU Memory** | **6.8 GB** | - | 10.2 GB | ✅ 33% memory reduction |
 
 ### Critical Finding: Sample Size Impact
 
@@ -113,7 +105,7 @@ python train.py --config configs/base_config.yaml
 - **Statistical Reliability**: 5000 generated samples vs 5000 real samples
 - **Multiple Metrics**: FID, IS, LPIPS, Mode Coverage, Pixel Statistics
 - **Comprehensive Analysis**: Visual quality assessment and distribution matching
-- **Hardware Validation**: Tested on RTX 3070, A100, and Kaggle T4
+- **Hardware Validation**: Tested on  A100, and T4
 
 ## 📈 Training Progression & Dynamics
 
