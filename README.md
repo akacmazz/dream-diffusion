@@ -113,12 +113,35 @@ python train.py --config configs/base_config.yaml
 ![image](https://github.com/user-attachments/assets/dc283ac6-9b77-494f-b9fd-49e0075f8131)
 
 
-**Key Training Milestones:**
-- **Epoch 3**: Initial structure formation from noise
-- **Epoch 5**: Basic facial features emerge  
-- **Epoch 25**: High diversity and quality achieved
-- **Epoch 75**: Publication-quality samples
-- **Epoch 100**: Final convergence (FID 25.75)
+## 🧠 Key Training Milestones: Sample Quality over Epochs
+- **Epoch 5**  
+  - The model begins with **pure noise**; no semantic structure is visible.  
+  - Outputs are randomized RGB patterns—no recognizable features yet.
+
+- **Epoch 25**  
+  - **Color blending** and vague facial contours start to emerge.  
+  - Some blob-like patterns loosely resemble heads or skin tones.  
+  - Still blurry and undefined.
+
+- **Epoch 50**  
+  - **Coarse facial structures** appear: eyes, mouths, and heads are noticeable.  
+  - Samples remain fuzzy but show clear intent toward human faces.  
+  - Diversity improves, though textures are not yet sharp.
+
+- **Epoch 75**  
+  - **Recognizable faces** with distinct features (eyes, nose, lips) become consistent.  
+  - Output includes various identities and expressions.  
+  - **Human-like realism** increases significantly.
+
+- **Epoch 100**  
+  - **Final convergence** with **publication-quality outputs**.  
+  - Faces are sharp, expressive, and realistic.  
+  - Fine details (hair, lighting, facial geometry) are well captured.  
+  - FID converges (e.g., ~25.75).
+
+![image](https://github.com/user-attachments/assets/9ed7923f-59fe-44e0-9593-d689df9348ba)
+
+
 
 ### DREAM Framework Training Dynamics
 <div align="center">
