@@ -401,11 +401,8 @@ This implementation was developed for **BLG561 Machine Learning** at **Istanbul 
 
 | Platform | Batch Size | Memory Usage | Training Time |
 |----------|------------|--------------|---------------|
-| **Google Colab (T4)** | 64 | 14GB | 6 hours |
-| **Kaggle (T4)** | 16 (grad acc: 4) | 8GB | 8 hours |
-| **RTX 3070** | 128 | 6.8GB | 14 hours |
-| **RTX 4090** | 256 | 12GB | 8 hours |
-| **A100** | 512 | 20GB | 2 hours |
+| **Google Colab (T4)** | 64 | 14GB | 16 hours |
+| **A100** | 512 | 20GB | 16 hours |
 
 ## 📖 Documentation & Results
 
