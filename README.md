@@ -59,7 +59,7 @@ Our implementation delivers **state-of-the-art results** on CelebA face generati
 ## 🚀 Quick Start
 
 ### Google Colab (Recommended)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akacmazz/dream-diffusion/blob/main/notebooks/dream_diffusion_complete.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/akacmazz/dream-diffusion/blob/main/dream_diffusion_complete.ipynb)
 
 **Complete Implementation (26 cells):**
 1. Click the Colab badge above
