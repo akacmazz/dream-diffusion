@@ -213,10 +213,7 @@ class DREAMTrainer:
 
 ```
 dream-diffusion/
-├── notebooks/
-│   ├── dream_diffusion_complete.ipynb  # Complete implementation (26 cells, 100 epochs)
-│   ├── dream_diffusion_colab.ipynb     # Main implementation (100 epochs)
-│   └── dream_diffusion_kaggle.ipynb    # Memory-optimized version
+├── dream_diffusion_complete.ipynb  # Complete implementation (26 cells, 100 epochs)
 ├── src/
 │   ├── models/
 │   │   ├── unet.py                      # UNet with gradient checkpointing
