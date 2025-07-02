@@ -119,9 +119,8 @@ python train.py --config configs/base_config.yaml
 
 ### Quality Evolution Over Time
 <div align="center">
-  <img src="images/training/Screenshot 2025-07-02 101657.png.png" alt="Progression of Sample Quality Over Training Epochs" width="900"/>
+  <img src="images/training/Screenshot%202025-07-02%20101657.png" alt="Training Progress over Epochs" width="700"/>
 </div>
-
 
 
 ## 🧠 Key Training Milestones: Sample Quality over Epochs
