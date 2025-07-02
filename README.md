@@ -5,9 +5,7 @@
   <h2>🎯 FID Score: 25.75 | 100% Mode Coverage | Publication Quality</h2>
 </div>
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/0ce2fce5-19a1-4bb9-a499-e67e9c1eb88f" alt="Epoch Progression Image" width="900"/>
-</div>
+
 
 
 <div align="center">
@@ -40,8 +38,11 @@ Our implementation delivers **state-of-the-art results** on CelebA face generati
 ## 🏆 Results at a Glance
 
 <div align="center">
-  <img src="images/showcase/quality_comparison.png" alt="Quality Comparison" width="650"/>
+  <img src="https://github.com/user-attachments/assets/0ce2fce5-19a1-4bb9-a499-e67e9c1eb88f" alt="Epoch Progression Image" width="900"/>
 </div>
+
+
+<div align="center">
 
 **Breakthrough Performance:**
 - **🎯 FID Score**: 25.75 (5000 samples) vs 65.0 (Standard DDPM) - **60% improvement**
