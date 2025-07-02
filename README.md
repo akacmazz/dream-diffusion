@@ -21,7 +21,7 @@
 
 </div>
 
-A PyTorch implementation of **DREAM (Diffusion Rectification and Estimation-Adaptive Models)** for high-quality face generation on the CelebA dataset. This project was developed for **BLG561 Machine Learning** course at **Istanbul Technical University** and achieves **publication-quality results** with training stability and crash protection.
+A PyTorch implementation of **DREAM (Diffusion Rectification and Estimation-Adaptive Models)** for high-quality face generation on the CelebA dataset. This project was developed and achieves **good-quality results** with training stability.
 
 **🏆 Achieved Results**: **FID Score 25.75** with **100% mode coverage** - *Comprehensive evaluation with 5000 samples*
 
