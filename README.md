@@ -476,9 +476,6 @@ print(f"Mode Coverage: {results['mode_coverage']:.1%}")
 - [**Real Evaluation Results**](results/real_evaluation_results.json): Complete metrics (5000 samples)
 - [**Sample Collections**](results/sample_grids/): Organized training outputs and evaluations
 
-### External Resources
-- [**Complete Dataset & Figures**](https://www.dropbox.com/scl/fi/krcvbhz1m3dh8uslt0wps/Project_AKacmazFull.zip): All 5000 samples, figures, and materials
-
 ## 🤝 Contributing
 
 Contributions are welcome! This project maintains high code quality standards:
