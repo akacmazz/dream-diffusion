@@ -54,6 +54,8 @@ Our implementation delivers **state-of-the-art results** on CelebA face generati
 - **🎨 Sample Diversity**: Exceptional variety and realism
 - **✅ Mode Coverage**: 100% (no mode collapse)
 
+</div>
+
 ## 🚀 Quick Start
 
 ### Google Colab (Recommended)
