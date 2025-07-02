@@ -119,7 +119,7 @@ python train.py --config configs/base_config.yaml
 
 ### Quality Evolution Over Time
 <div align="center">
-  <img src="images/training/Screenshot%202025-07-02%20101657.png" alt="Training Progress over Epochs" width="700"/>
+  <img src="images/training/Screenshot%202025-07-02%20101657.png" alt="Training Progress over Epochs" width="900"/>
 </div>
 
 
