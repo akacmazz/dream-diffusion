@@ -1,5 +1,4 @@
 
-![image](https://github.com/user-attachments/assets/0ce2fce5-19a1-4bb9-a499-e67e9c1eb88f)
 
 <div align="center">
   <h1>DREAM Diffusion: Face Generation with Improved Training Stability</h1>
@@ -7,7 +6,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0ce2fce5-19a1-4bb9-a499-e67e9c1eb88f" alt="Epoch Progression Image" width="700"/>
+  <img src="https://github.com/user-attachments/assets/0ce2fce5-19a1-4bb9-a499-e67e9c1eb88f" alt="Epoch Progression Image" width="900"/>
 </div>
 
 
