@@ -10,6 +10,9 @@
   <img src="images/progression/progression_epochs.png" alt="Progression of Sample Quality Over Training Epochs" width="900"/>
 </div>
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0ce2fce5-19a1-4bb9-a499-e67e9c1eb88f" alt="Epoch Progression Image" width="700"/>
+</div>
 
 
 <div align="center">
