@@ -16,8 +16,8 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![FID](https://img.shields.io/badge/FID-25.75-brightgreen.svg)](https://github.com/akacmazz/dream-diffusion)
-[![ITU](https://img.shields.io/badge/Institution-ITU-blue.svg)](https://www.itu.edu.tr/)
-[![BLG561](https://img.shields.io/badge/Course-BLG561-orange.svg)](https://github.com/akacmazz/dream-diffusion)
+
+
 
 </div>
 
