@@ -504,18 +504,7 @@ If you use this implementation in your research, please cite:
 }
 ```
 
-## 🙏 Acknowledgments
 
-- **Istanbul Technical University** - BLG561 Machine Learning Course
-- **DREAM Paper Authors** - Original research contribution
-- **PyTorch Team** - Excellent deep learning framework
-- **CelebA Dataset Creators** - High-quality face dataset
-- **Open Source Community** - Foundational diffusion model implementations
-
-## 📞 Support & Contact
-
-- **Issues**: [GitHub Issues](https://github.com/akacmazz/dream-diffusion/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/akacmazz/dream-diffusion/discussions)
 ---
 
 
