@@ -118,7 +118,10 @@ python train.py --config configs/base_config.yaml
 ## 📈 Training Progression & Dynamics
 
 ### Quality Evolution Over Time
-![image](https://github.com/user-attachments/assets/dc283ac6-9b77-494f-b9fd-49e0075f8131)
+<div align="center">
+  <img src="images/training/Screenshot 2025-07-02 101657.png.png" alt="Progression of Sample Quality Over Training Epochs" width="900"/>
+</div>
+
 
 
 ## 🧠 Key Training Milestones: Sample Quality over Epochs
