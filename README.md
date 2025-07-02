@@ -4,6 +4,10 @@
   <h1>DREAM Diffusion: Face Generation with Improved Training Stability</h1>
   <h2>🎯 FID Score: 25.75 | 100% Mode Coverage | Publication Quality</h2>
 </div>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/2a63470a-f167-4451-bce5-553bfd3ddbce" alt="DREAM Diffusion Sample" width="700"/>
+</div>
+
 
 
 
