@@ -444,26 +444,6 @@ print(f"IS: {results['inception_score']:.2f}")
 print(f"Mode Coverage: {results['mode_coverage']:.1%}")
 ```
 
-## 🎓 Educational Value
-
-### Course Project Context
-
-This implementation was developed for **BLG561 Machine Learning** at **Istanbul Technical University** with focus on:
-
-- **Practical Implementation**: Real-world applicable diffusion models
-- **Training Stability**: Conservative approaches for reproducible results
-- **Hardware Optimization**: Accessible training on consumer GPUs
-- **Comprehensive Evaluation**: Statistical rigor in performance assessment
-- **Code Quality**: Clean, documented, and maintainable implementation
-
-### Learning Outcomes
-
-- **Advanced Deep Learning**: Diffusion models and generative AI
-- **Training Optimization**: Memory management and stability techniques
-- **Evaluation Methodology**: Rigorous assessment of generative models
-- **Research Skills**: Implementation of cutting-edge research papers
-- **Engineering Practices**: Crash protection and robust system design
-
 ## 🔧 Hardware Requirements & Optimization
 
 ### Minimum Requirements
@@ -472,7 +452,7 @@ This implementation was developed for **BLG561 Machine Learning** at **Istanbul 
 - **Storage**: 50GB for dataset and checkpoints
 
 ### Recommended Setup
-- **GPU**: 16GB+ VRAM (RTX 4090, A100)
+- **GPU**: 16GB+ VRAM (T4, A100)
 - **RAM**: 32GB+ system memory
 - **Storage**: 100GB+ NVMe SSD
 
@@ -503,13 +483,6 @@ This implementation was developed for **BLG561 Machine Learning** at **Istanbul 
 
 Contributions are welcome! This project maintains high code quality standards:
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Follow the coding standards (see CONTRIBUTING.md)
-4. Add comprehensive tests for new features
-5. Update documentation as needed
-6. Create a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -522,8 +495,6 @@ If you use this implementation in your research, please cite:
 @misc{dream-diffusion-itu-2024,
   title={DREAM Diffusion: Face Generation with Improved Training Stability},
   author={Ahmet Kaçmaz},
-  institution={Istanbul Technical University},
-  course={BLG561 Machine Learning},
   year={2024},
   howpublished={\url{https://github.com/akacmazz/dream-diffusion}},
   note={FID Score: 25.75, Implementation with crash protection and hardware optimization}
@@ -542,13 +513,6 @@ If you use this implementation in your research, please cite:
 
 - **Issues**: [GitHub Issues](https://github.com/akacmazz/dream-diffusion/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/akacmazz/dream-diffusion/discussions)
-- **Institution**: Istanbul Technical University
-- **Course**: BLG561 Machine Learning
-
 ---
 
-<div align="center">
-  <h3>🏆 BLG561 Project Achievement</h3>
-  <p><strong>FID Score: 25.75</strong> | <strong>100% Mode Coverage</strong> | <strong>Publication-Quality Results</strong></p>
-  <sub>Built with ❤️ for reproducible and accessible machine learning research</sub>
-</div>
+
