@@ -31,7 +31,7 @@ A PyTorch implementation of **DREAM (Diffusion Rectification and Estimation-Adap
 
 Our implementation delivers **state-of-the-art results** on CelebA face generation with rigorous evaluation:
 
-- **🎯 FID Score: 25.75** (5000 samples, publication-quality)
+- **🎯 FID Score: 25.75** (5000 samples, good-quality)
 - **📊 Inception Score: 2.03 ± 0.09** (excellent image quality)
 - **🎨 LPIPS Diversity: 0.259** (high sample diversity)
 - **✅ Mode Coverage: 100%** (20/20 modes covered, no mode collapse)
@@ -53,7 +53,6 @@ Our implementation delivers **state-of-the-art results** on CelebA face generati
 - **📊 Inception Score**: 2.03 ± 0.09 (excellent image quality)
 - **🎨 Sample Diversity**: Exceptional variety and realism
 - **✅ Mode Coverage**: 100% (no mode collapse)
-
 </div>
 
 ## 🚀 Quick Start
@@ -86,19 +85,20 @@ python train.py --config configs/base_config.yaml
 
 ### Performance Metrics (Comprehensive Evaluation)
 
-| Metric | Our Result (5000) | Our Result (500) | Baseline DDPM | Interpretation |
-|--------|-------------------|------------------|---------------|----------------|
-| **FID Score** | **25.75** | 71.66 | 45.2 | 🏆 Publication-quality (5k samples) |
-| **Inception Score** | **2.03 ± 0.09** | 1.94 ± 0.11 | 1.45 | ✅ Excellent image quality |
-| **LPIPS Diversity** | **0.259** | 0.251 | 0.198 | ✅ High sample diversity |
-| **Mode Coverage** | **100%** (20/20) | 95% (19/20) | 85% | ✅ Perfect mode coverage |
-| **Training Loss** | **0.029** | - | 0.045 | ✅ Excellent convergence |
+| Metric              | Our Result (5000) | Baseline DDPM | Interpretation                      |
+|---------------------|-------------------|----------------|--------------------------------------|
+| **FID Score**       | **25.75**         | 45.2           | 🏆 Publication-quality (5k samples)  |
+| **Inception Score** | **2.03 ± 0.09**   | 1.45           | ✅ Excellent image quality           |
+| **LPIPS Diversity** | **0.259**         | 0.198          | ✅ High sample diversity             |
+| **Mode Coverage**   | **100%** (20/20)  | 85%            | ✅ Perfect mode coverage             |
+| **Training Loss**   | **0.029**         | 0.045          | ✅ Excellent convergence             |
+
 
 ### Critical Finding: Sample Size Impact
 
 **Key Insight**: Large-scale evaluation is essential for reliable FID assessment:
 - **500 samples**: FID 71.66 (misleading, appears poor)
-- **5000 samples**: FID 25.75 (actual performance, publication-quality)
+- **5000 samples**: FID 25.75 (actual performance, good-quality)
 - **Difference**: 45.91 FID points improvement with proper evaluation scale
 
 ### Training Configuration (Validated Results)
